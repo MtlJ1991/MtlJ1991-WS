@@ -35,7 +35,7 @@ class HomePage extends React.Component {
                 </div>
 
                 <div className='aLittleAbout'>
-                    <h3>A little about me</h3>
+                    <h5>A little about me</h5>
                 </div>
 
                 <div className='WhatWeDo'>
@@ -60,7 +60,7 @@ class HomePage extends React.Component {
 
                 <div className='WhoWeAreTwo'>
                 <i class="fa fa-tree fa-2x" aria-hidden="true"></i>
-                    <p>Passionate nature photographer</p>
+                    <p>Nature photographer</p>
                 </div>
 
                 <div className='AppDetailsTwo'>
