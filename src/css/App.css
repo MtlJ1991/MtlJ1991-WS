@@ -12,7 +12,7 @@
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 1;
-  grid-row-end: 20;
+  grid-row-end: 25;
   height:100%;
   background: url('../img/books2.jpg') no-repeat center;
   background-size: cover; 
@@ -30,7 +30,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(50px, auto);
+  grid-auto-rows: 50px;
   font-size: 35px;
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -57,6 +57,7 @@
   grid-row-start: 10;
   grid-row-end: 13;
   color:white;
+  text-decoration: underline;
 }
 
 .WhatWeDo{
@@ -68,6 +69,7 @@
   font-size: 15px;
   color:white;
   text-align: center;
+
 
 }
 
@@ -81,6 +83,7 @@
   color:white;
   text-align: center;
 
+
 }
 
 .AppDetails {
@@ -92,6 +95,7 @@
   font-size: 15px;
   color:white;
   text-align: center;
+  
 
 }
 
@@ -138,6 +142,99 @@
   grid-row-end: 30;
   font-size: 15px;
   color:white;
+}
+
+@media(max-width: 700px) {
+
+  particles-js {
+    color: transparent;
+  }
+  
+
+  .WhatWeDo{
+    /* background-color: rgba(221, 207, 207, 0.219); */
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 12;
+    grid-row-end: 14;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+  
+  
+  }
+  
+  .WhoWeAre {
+    /* background-color: rgba(221, 207, 207, 0.219); */
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 14;
+    grid-row-end: 16;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+  
+  
+  }
+  
+  .AppDetails {
+    /* background-color: rgba(221, 207, 207, 0.219); */
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 16;
+    grid-row-end: 18;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    
+  
+  }
+  
+  .WhatWeDoTwo {
+    /* background-color: rgba(221, 207, 207, 0.219); */
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 18;
+    grid-row-end: 20;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+  
+  }
+  
+  .WhoWeAreTwo {
+    /* background-color: rgba(221, 207, 207, 0.219); */
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 20;
+    grid-row-end: 22;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+  
+  }
+  
+  .AppDetailsTwo {
+    /* background-color: rgba(221, 207, 207, 0.219); */
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 22;
+    grid-row-end: 24;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+  }
+  
+  .AppDetailsTwoo {
+    /* background-color: rgba(221, 207, 207, 0.219); */
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 24;
+    grid-row-end: 26;
+    font-size: 15px;
+    color:white;
+  }
+
 }
 
 
