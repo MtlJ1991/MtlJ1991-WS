@@ -1,0 +1,132 @@
+.App {
+  /* text-align: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto); */
+}
+
+
+
+.siteBackground {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 20;
+  height:100%;
+  background: url('../img/books2.jpg') no-repeat center;
+  background-size: cover; 
+}
+
+
+
+
+.homeMain {
+  text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.455),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
+
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+  font-size: 35px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+  text-align: center;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  color:White;
+}
+
+
+
+.title{
+  font-size: 25px;
+}
+
+.aLittleAbout{
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 10;
+  grid-row-end: 13;
+  color:white;
+}
+
+.WhatWeDo{
+  /* background-color: rgba(221, 207, 207, 0.219); */
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 12;
+  grid-row-end: 15;
+  font-size: 15px;
+  color:white;
+}
+
+.WhoWeAre {
+  /* background-color: rgba(221, 207, 207, 0.219); */
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 12;
+  grid-row-end: 15;
+  font-size: 15px;
+  color:white;
+}
+
+.AppDetails {
+  /* background-color: rgba(221, 207, 207, 0.219); */
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 12;
+  grid-row-end: 15;
+  font-size: 15px;
+  color:white;
+}
+
+.WhatWeDoTwo {
+  /* background-color: rgba(221, 207, 207, 0.219); */
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 15;
+  grid-row-end: 19;
+  font-size: 15px;
+  color:white;
+}
+
+.WhoWeAreTwo {
+  /* background-color: rgba(221, 207, 207, 0.219); */
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 15;
+  grid-row-end: 19;
+  font-size: 15px;
+  color:white;
+}
+
+.AppDetailsTwo {
+  /* background-color: rgba(221, 207, 207, 0.219); */
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 15;
+  grid-row-end: 19;
+  font-size: 15px;
+  color:white;
+}
+
+.AppDetailsTwoo {
+  /* background-color: rgba(221, 207, 207, 0.219); */
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 30;
+  grid-row-end: 30;
+  font-size: 15px;
+  color:white;
+}
+
+
