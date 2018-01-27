@@ -2,7 +2,7 @@
 export default {
   "particles": {
     "number": {
-      "value": 30,
+      "value": 25,
       "density": {
         "enable": true,
         "value_area": 900
@@ -73,10 +73,10 @@ export default {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "repulsive"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true

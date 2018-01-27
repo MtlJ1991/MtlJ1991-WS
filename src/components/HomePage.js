@@ -40,32 +40,32 @@ class HomePage extends React.Component {
 
                 <div className='WhatWeDo'>
                 <i class="fa fa-code fa-2x" aria-hidden="true"></i>
-                    <p>Fullstack Javascript devloper</p>
+                    <p>Fullstack Javascript devloper, experience with React, NodeJS, Psql, MongoDB, ejs and more!</p>
                 </div>
 
                 <div className='WhoWeAre'>
                 <i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
-                    <p>Enthusiastic problem solver</p>
+                    <p>Enthusiastic problem solver, part of my training at Northcoders involved solving 45 katas!</p>
                 </div>
 
                 <div className='AppDetails'>
                 <i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>
-                    <p>Ameatur artist and creative thinker</p>
+                    <p>Ameatur artist and creative thinker. If I'm not coding I'm painting.</p>
                 </div>
 
                 <div className='WhatWeDoTwo'>
                 <i class="fa fa-comments-o fa-2x" aria-hidden="true"></i>
-                    <p>Confident public speaker</p>
+                    <p>Confident public speaker, check out my Lightning talk!</p>
                 </div>
 
                 <div className='WhoWeAreTwo'>
                 <i class="fa fa-tree fa-2x" aria-hidden="true"></i>
-                    <p>Nature photographer</p>
+                    <p>Nature / Astrophotogrpaher photographer, I hope you enjoy the timelapse.</p>
                 </div>
 
                 <div className='AppDetailsTwo'>
                 <i class="fa fa-child fa-2x" aria-hidden="true"></i>
-                    <p>Agile programmer at heart and in practise</p>
+                    <p>Agile programmer at heart and in practise. Whether it be scrum or standup. I'm on board.</p>
                 </div>
 
                 <div className='AppDetailsTwoo'>

@@ -69,6 +69,7 @@
   font-size: 15px;
   color:white;
   text-align: center;
+  
 
 
 }
@@ -150,89 +151,110 @@
     color: transparent;
   }
   
+  .aLittleAbout{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    color:white;
+    text-decoration: underline;
+  }
 
   .WhatWeDo{
     /* background-color: rgba(221, 207, 207, 0.219); */
-    grid-column-start: 4;
-    grid-column-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 6;
     grid-row-start: 12;
-    grid-row-end: 14;
+    grid-row-end: 16;
     font-size: 15px;
     color:white;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.445);
   
   
   }
   
   .WhoWeAre {
     /* background-color: rgba(221, 207, 207, 0.219); */
-    grid-column-start: 4;
-    grid-column-end: 10;
-    grid-row-start: 14;
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 12;
     grid-row-end: 16;
     font-size: 15px;
     color:white;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.445);
+
   
   
   }
   
   .AppDetails {
     /* background-color: rgba(221, 207, 207, 0.219); */
-    grid-column-start: 4;
-    grid-column-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 6;
     grid-row-start: 16;
-    grid-row-end: 18;
+    grid-row-end: 20;
     font-size: 15px;
     color:white;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.445);
+
     
   
   }
   
   .WhatWeDoTwo {
     /* background-color: rgba(221, 207, 207, 0.219); */
-    grid-column-start: 4;
-    grid-column-end: 10;
-    grid-row-start: 18;
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 16;
     grid-row-end: 20;
     font-size: 15px;
     color:white;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.445);
+
   
   }
   
   .WhoWeAreTwo {
     /* background-color: rgba(221, 207, 207, 0.219); */
-    grid-column-start: 4;
-    grid-column-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 6;
     grid-row-start: 20;
-    grid-row-end: 22;
+    grid-row-end: 24;
     font-size: 15px;
     color:white;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.445);
+
   
   }
   
   .AppDetailsTwo {
     /* background-color: rgba(221, 207, 207, 0.219); */
-    grid-column-start: 4;
-    grid-column-end: 10;
-    grid-row-start: 22;
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 20;
     grid-row-end: 24;
     font-size: 15px;
     color:white;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.445);
+
   }
   
   .AppDetailsTwoo {
     /* background-color: rgba(221, 207, 207, 0.219); */
-    grid-column-start: 4;
-    grid-column-end: 10;
-    grid-row-start: 24;
-    grid-row-end: 26;
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 30;
+    grid-row-end: 31;
     font-size: 15px;
     color:white;
+    background-color: rgba(0, 0, 0, 0.445);
+
   }
 
 }
