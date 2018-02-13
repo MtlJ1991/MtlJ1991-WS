@@ -5,10 +5,6 @@ import pParams from '../particles/particles';
 
 class HomePage extends React.Component {
 
-    state = {
-        username: '',
-        password: ''
-    }
 
     render() {
         return (
