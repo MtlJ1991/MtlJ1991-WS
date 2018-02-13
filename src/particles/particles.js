@@ -37,7 +37,7 @@ export default {
       }
     },
     "size": {
-      "value": 1,
+      "value": 2,
       "random": true,
       "anim": {
         "enable": false,
@@ -73,7 +73,7 @@ export default {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "repulsive"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": false,

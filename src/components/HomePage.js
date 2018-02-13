@@ -12,9 +12,9 @@ class HomePage extends React.Component {
 
     render() {
         return (
-            <div className='homeMain'>
+            <section className='homeMain'>
 
-<div class="topnav" id="myTopnav">
+<section class="topnav" id="myTopnav">
 
 
             <a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
@@ -22,59 +22,59 @@ class HomePage extends React.Component {
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-            </div>
+            </section>
 
 <div id="particles-js" className='siteBackground'>
           <Particles params={pParams} />
 </div>
 
-                <div className='title'>
+                <section className='title'>
                     <a id="home"></a>
                     <h1>Matt Jones</h1>
                     <p>Javascript developer</p>
-                </div>
+                </section>
 
-                <div className='aLittleAbout'>
+                <section className='aLittleAbout'>
                     <h5>A little about me</h5>
-                </div>
+                </section>
 
-                <div className='WhatWeDo'>
+                <section className='WhatWeDo'>
                 <i class="fa fa-code fa-2x" aria-hidden="true"></i>
                     <p>Fullstack Javascript devloper, experience with React, NodeJS, Psql, MongoDB, ejs and more!</p>
-                </div>
+                </section>
 
-                <div className='WhoWeAre'>
+                <section className='WhoWeAre'>
                 <i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
                     <p>Enthusiastic problem solver, part of my training at Northcoders involved solving 45 katas!</p>
-                </div>
+                </section>
 
-                <div className='AppDetails'>
+                <section className='AppDetails'>
                 <i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>
                     <p>Ameatur artist and creative thinker. If I'm not coding I'm painting.</p>
-                </div>
+                </section>
 
-                <div className='WhatWeDoTwo'>
+                <section className='WhatWeDoTwo'>
                 <i class="fa fa-comments-o fa-2x" aria-hidden="true"></i>
                     <p>Confident public speaker, check out my Lightning talk!</p>
-                </div>
+                </section>
 
-                <div className='WhoWeAreTwo'>
+                <section className='WhoWeAreTwo'>
                 <i class="fa fa-tree fa-2x" aria-hidden="true"></i>
                     <p>Nature / Astrophotogrpaher photographer, I hope you enjoy the timelapse.</p>
-                </div>
+                </section>
 
-                <div className='AppDetailsTwo'>
+                <section className='AppDetailsTwo'>
                 <i class="fa fa-child fa-2x" aria-hidden="true"></i>
                     <p>Agile programmer at heart and in practise. Whether it be scrum or standup. I'm on board.</p>
-                </div>
+                </section>
 
-                <div className='AppDetailsTwoo'>
+                <section className='AppDetailsTwoo'>
                 <i class="fa fa-child fa-2x" aria-hidden="true"></i>
                     <p>Agile programmer at heart and in practise</p>
                     <a id="about">About</a>
-                </div>
+                </section>
    
-            </div>
+            </section>
 
         )
     }

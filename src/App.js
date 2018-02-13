@@ -19,9 +19,9 @@ class App extends Component {
     return (
 
 <BrowserRouter>
-        <div className="App">
+        <section className="App">
         <Route exact path="/" component={HomePage} />
-        </div>
+        </section>
 </BrowserRouter>
 
 
